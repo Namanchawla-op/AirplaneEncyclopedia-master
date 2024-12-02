@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.google.testairplaneencyclopedia.helicopters.Kamov20Activity"
+    android:background="@drawable/background_content"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ka20_1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/ka20_1"
+
+                />
+
+            <ImageView
+                android:id="@+id/ka20_2"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="-300dp"
+                android:alpha="-5"
+                app:srcCompat="@drawable/ka20_2"
+                android:scaleType="fitXY"
+                />
+            <TextView
+                android:id="@+id/tv_generalExplanation"
+                android:layout_width="@dimen/width_txtView_general"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/background_styles_general_text"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="General explanation"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/textSize_txtView_general"
+                android:textStyle="italic" />
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Kamov20"
+                android:textColor="#000000"
+                android:textIsSelectable="true"
+                android:textSize="@dimen/textSize_mainTxt"
+                android:background="@drawable/background_styles_text"
+                android:padding="@dimen/padding_mainTxt"
+                android:layout_margin="10dp"
+                android:fontFamily="serif"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

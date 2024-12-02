@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.google.testairplaneencyclopedia.carriage.CarriageAirplanesActivity"
+    android:background="#2ecaf1ef"
+    >
+
+
+    <ImageView
+        android:id="@+id/carriageairplanebackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/carriageairplanebackground"
+        android:layout_marginBottom="12dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/c_130"
+                style="@style/Widget.AppCompat.Light.ActionButton.Overflow"
+                android:layout_width="90dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-condensed"
+
+                android:text="C-130"
+                android:textColor="#000000"
+                android:textSize="17dp"
+
+                />
+
+            <Button
+                android:id="@+id/c_130j"
+                style="@style/Widget.AppCompat.Light.ActionButton.Overflow"
+                android:layout_width="90dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed"
+
+                android:text="C-130J"
+                android:textColor="#000000"
+                android:textSize="17dp"
+
+                />
+
+            <Button
+                android:id="@+id/c_5"
+                style="@style/Widget.AppCompat.Light.ActionButton.Overflow"
+                android:layout_width="90dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed"
+
+                android:text="C-5"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+            <Button
+                android:id="@+id/c_12"
+                style="@style/Widget.AppCompat.Light.ActionButton.Overflow"
+                android:layout_width="90dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed"
+
+                android:text="C-12"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+            <Button
+                android:id="@+id/c_17"
+                style="@style/Widget.AppCompat.Light.ActionButton.Overflow"
+                android:layout_width="90dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed"
+
+                android:text="C-17"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+            <Button
+                android:id="@+id/c_26"
+                style="@style/Widget.AppCompat.Light.ActionButton.Overflow"
+                android:layout_width="90dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed"
+
+                android:text="C-26"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+            <Button
+                android:id="@+id/c_144"
+                style="@style/Widget.AppCompat.Light.ActionButton.Overflow"
+                android:layout_width="90dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed"
+
+                android:text="C-144"
+                android:textColor="#000000"
+                android:textSize="17dp" />
+
+            <Button
+                android:id="@+id/c_146"
+                style="@style/Widget.AppCompat.Light.ActionButton.Overflow"
+                android:layout_width="90dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed"
+
+                android:text="C-146"
+                android:textColor="#000000"
+                android:textSize="17dp"
+
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
