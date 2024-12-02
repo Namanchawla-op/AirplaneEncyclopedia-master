@@ -18,13 +18,6 @@ An offline aviation cyclopedia available anytime to help you recognize and learn
 
 ---
 
-## 🔧 Installation
-1. Download the app from [official website link or app store link].
-2. Follow the setup guide provided during installation.
-3. Start exploring the aviation world offline!
-
----
-
 ## 💡 Contribution
 We welcome contributions! If you'd like to improve the app, submit a pull request or report an issue in the repository.
 
